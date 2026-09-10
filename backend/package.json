@@ -1,5 +1,5 @@
 {
-  "name": "prontopaga-backend",
+  "name": "fintech-backend",
   "version": "1.0.0",
   "description": "Backend MVP - Consulta de score de riesgo financiero por RUT (JWT + RBAC)",
   "private": true,

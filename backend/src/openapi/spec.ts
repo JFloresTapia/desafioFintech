@@ -6,7 +6,7 @@
 export const openApiSpec = {
   openapi: '3.0.3',
   info: {
-    title: 'ProntoPaga · Score de Riesgo Financiero',
+    title: 'Fintech · Score de Riesgo Financiero',
     version: '1.0.0',
     description:
       'API para autenticación (JWT) y consulta del score de riesgo financiero por RUT. ' +

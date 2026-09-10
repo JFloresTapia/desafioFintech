@@ -11,7 +11,7 @@ describe('Documentación OpenAPI', () => {
     expect(res.status).toBe(200);
     expect(res.headers['content-type']).toContain('application/json');
     expect(res.body.openapi).toBe('3.0.3');
-    expect(res.body.info.title).toContain('ProntoPaga');
+    expect(res.body.info.title).toContain('Fintech');
     expect(Object.keys(res.body.paths)).toContain('/login');
     expect(Object.keys(res.body.paths)).toContain('/score/{rut}');
   });

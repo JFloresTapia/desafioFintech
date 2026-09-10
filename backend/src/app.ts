@@ -26,7 +26,7 @@ export function createApp(container: Container = createContainer()): Express {
     '/api-docs',
     swaggerUi.serve,
     swaggerUi.setup(openApiSpec as Parameters<typeof swaggerUi.setup>[0], {
-      customSiteTitle: 'ProntoPaga · Score API',
+      customSiteTitle: 'Fintech · Score API',
     }),
   );
 
